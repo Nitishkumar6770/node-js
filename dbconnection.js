@@ -7,7 +7,7 @@ async function dbconnection() {
     const db = result.db('youtube');
     const collection = db.collection('videos');
     const data = await collection.find().toArray();
-    console.log(data);
+    // console.log(data);
     // await client.close();
     // console.log(collection.find().toArray().then((data)=> {
     //     console.log(data);
